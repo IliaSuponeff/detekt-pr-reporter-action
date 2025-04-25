@@ -11,4 +11,4 @@ inputs:
     required: true
 runs:
   using: 'node16'
-  main: 'dist/main.js' # Убедитесь, что это указывает на файл JavaScript
+  main: 'src/main.js'
