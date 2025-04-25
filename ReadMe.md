@@ -25,7 +25,7 @@ jobs:
       - name: Run Detekt
         run: ./gradlew detekt
       - name: Publish Detekt Report
-        uses: IliaSuponeff/detekt-pr-reporter-action@v1.0.2
+        uses: IliaSuponeff/detekt-pr-reporter-action@v1.0.4
         with:
           report_path: <path-to-detekt-markdown-md>
           token: ${{ secrets.GITHUB_TOKEN }}
