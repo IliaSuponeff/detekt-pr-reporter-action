@@ -1,14 +1,18 @@
-name: 'Detekt Markdown Report'
-description: 'Publishes Detekt markdown report to pull request'
+name: 'Detekt PR Reporter'
+description: 'Posts detekt report as a comment on pull requests'
 
 branding:
   icon: 'check-circle'
   color: 'green'
 
 inputs:
-  report_path:
-    description: 'Path to the Detekt markdown report file'
+  token:
+    description: 'GitHub token for authentication'
     required: true
+  report_path:
+    description: 'Path to the detekt markdown report file'
+    required: true
+  
 runs:
   using: 'node16'
   main: 'src/main.js'

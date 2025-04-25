@@ -24,8 +24,9 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run detekt
         run: ./gradlew detekt
+  
       - name: Publish Detekt Report
-        uses: IliaSuponeff/detekt-pr-reporter-action@v1
+        uses: IliaSuponeff/detekt-pr-reporter-action@<current-version>
         with:
           report_path: build/reports/detekt/detekt.md
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+```
