@@ -8,11 +8,11 @@ branding:
 inputs:
   token:
     description: 'GitHub token for authentication'
-    required: true
+    required: false
   report_path:
     description: 'Path to the detekt markdown report file'
     required: true
   
 runs:
   using: 'node16'
-  main: 'src/main.js'
+  main: 'dist/index.js'
