@@ -1,5 +1,6 @@
 name: 'Detekt Markdown Report'
 description: 'Publishes Detekt markdown report to pull request'
+icon: check-circle
 inputs:
   report_path:
     description: 'Path to the Detekt markdown report file'
