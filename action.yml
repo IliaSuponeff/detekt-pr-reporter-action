@@ -1,0 +1,9 @@
+name: 'Detekt Markdown Report'
+description: 'Publishes Detekt markdown report to pull request'
+inputs:
+  report_path:
+    description: 'Path to the Detekt markdown report file'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/main.js' # Убедитесь, что это указывает на файл JavaScript

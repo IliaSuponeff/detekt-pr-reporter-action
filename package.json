@@ -1,0 +1,23 @@
+{
+  "name": "detekt-markdown-report",
+  "version": "1.0.0",
+  "description": "Publishes Detekt markdown report to pull request",
+  "main": "dist/main.js",
+  "scripts": {},
+  "keywords": [
+      "github",
+      "actions",
+      "detekt",
+      "markdown",
+      "report"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+      "@actions/core": "^1.10.0",
+      "@actions/github": "^5.1.1"
+  },
+  "devDependencies": {
+      "@vercel/ncc": "^0.36.1"
+  }
+}
