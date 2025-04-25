@@ -1,7 +1,7 @@
 {
     "name": "detekt-pr-reporter-action",
-    "version": "1.0.0",
-    "main": "src/main.js",
+    "version": "1.0.2",
+    "main": "src/index.js",
     "scripts": {
       "build": "ncc build src/index.js -o dist"
     },
